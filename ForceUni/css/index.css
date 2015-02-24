@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'jedi';
+    src: url('../fonts/Strjmono.ttf') format('truetype');
+}
+
+body{
+    background: url('../img/spaceSmall-ivanCopy.png') repeat;
+	
+}
+
+h2{
+    font-family: 'jedi';
+}
+
+
+#img{
+    width: 60%;
+}
+
+.height{
+    height: 300px;
+}
+
+.col-heading{
+    margin: 20px;
+}
+
+img{
+    vertical-align:"middle";
+    position: relative;
+}
+
+ul{
+   margin: 20px;
+   min-width: 200px;
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.heading-font{
+    font-size: 20px;
+    font-family: 'jedi';
+    font-weight: bold;
+    color: #CFDFCF;
+}
+
+/* .link {
+    font-family: 'jedi';
+    font-size: 20px;
+    font-style: italic;
+    border:2px solid #CBD900;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+.link:hover{
+     font-family: 'jedi';
+    font-size: 20px;
+    font-style: italic;
+    border:2px solid white;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 10px;
+    color: #CBD900;
+}*/
+
+.link{
+    font-family: 'jedi';
+    font-size: 19px;
+    background: url('../img/spaceSmall-ivanCopy.png');
+    color:#CBD900;
+}
+
+.link:hover{
+    color:white;
+}
+
+.heading-level-2{
+    margin-top: 10px;
+}
+
+.img-responsive{
+    min-width: 200px;
+}
+
+#audio{
+    display: none;
+}
+@media only screen and (max-width: 480px) {
+    /* STYLES HERE for BROWSER WINDOWS with a max-width of 480px. This will work on desktops when the window is narrowed.  */
+    .height{
+        height: 100px;
+    }
+     .heading-level-2{
+        margin-top:10%;
+        margin-bottom:10%;
+        margin-left: 35%;
+    }
+    
+}
+
+@media all screen and (max-width:768px) {
+    .height{
+        height: 150px;
+    }
+    .heading-level-2{
+        margin-top:10%;
+        margin-bottom:10%;
+        margin-left: 35%;
+    }
+    
+}
+
+
+
+
+
+
+
