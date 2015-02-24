@@ -84,4 +84,10 @@ a{
  .subMenu > ul > li:hover {
 	background: rgba(255,255,0,0.6);
 }
+.content > img {
+	width: 200px;
+	height: 200px;
+	float: right;
+	padding: 30px;
+}
  
