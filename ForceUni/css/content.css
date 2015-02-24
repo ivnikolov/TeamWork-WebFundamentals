@@ -9,8 +9,10 @@ body {
 	background:url("../img/spaceSmall-ivanCopy.png");
 }
 header {
-	width: 100%;
+	width: 95%;
+	margin: 0 auto;
 	min-height: 150px;
+	border-bottom: 1px solid rgb(255,255,0);
 }
 a{
 	text-decoration: none;
@@ -41,7 +43,8 @@ a{
 .content p { 
 	color: white;
 	padding: 70px;
-	font-family: "Droid Sans", arial, verdana, sans-serif; 
+	font-family: 'Diplomata SC', cursive; 
+	color: black;
 	font-weight: bold;
 }
 
@@ -90,4 +93,20 @@ a{
 	float: right;
 	padding: 30px;
 }
- 
+@media (max-width: 860px){
+.subMenu > ul > li {
+	display: inline-block;
+}
+
+.aside-left {
+	min-height: 100px; 
+	width: 100%;
+	 float: left;
+	 margin: 0 auto;
+
+}
+.content {
+	width: 100%;
+	margin: 10px auto;
+}
+}
