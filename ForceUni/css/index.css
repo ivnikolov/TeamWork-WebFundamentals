@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'jedi';
-    src: url('../fonts/Strjmono.ttf') format('truetype');
+    src: url('fonts/Strjmono.ttf') format('truetype');
 }
 
 body{
