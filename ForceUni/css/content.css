@@ -1,3 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700); 
+@font-face {
+  font-family: Stjldbl;
+  src: url("../font/Strjmono.ttf");
+ }
+  
+
 body {
-	background:url("../img/spaceSmall.png");
+	background:url("../img/spaceSmall-ivanCopy.png");
 }
+header {
+	width: 100%;
+	min-height: 150px;
+}
+a{
+	text-decoration: none;
+}
+.wrap {
+	width: 90%;
+	min-height: 200px;
+	margin: 5% auto;
+	padding: 10px;
+	position: relative;
+	 
+}
+.aside-left {
+	min-height: 100px; 
+	width: 20%;
+	 float: left;
+	 margin: 0 10px;
+
+}
+.content {
+	min-height: 100px;
+	background: rgba(255,255,255, 0.3);
+	border-radius: 20px; 
+	width: 70%;
+	margin:  0 10px;
+	float: left;
+}
+.content p { 
+	color: white;
+	padding: 70px;
+	font-family: "Droid Sans", arial, verdana, sans-serif; 
+	font-weight: bold;
+}
+
+.subMenu {
+	background: rgba(255,255,0,0.3);
+	height: auto;
+	width: 100%;
+	border-radius: 20px; 
+}
+
+.subMenu > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.subMenu > ul > li {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding: 10px 20px; 
+}
+
+.subMenu > ul:first-child {
+ 	padding-top:  20px;
+}
+
+.subMenu > ul:last-child {
+ 	padding-bottom:  20px;
+}
+
+.subMenu > ul > li> a {
+	font-family: "Droid Sans", arial, verdana, sans-serif; 
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+ .subMenu > ul > li:hover {
+	background: rgba(255,255,0,0.6);
+}
+ 
