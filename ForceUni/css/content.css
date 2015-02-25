@@ -1,7 +1,7 @@
- 
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700); 
 @font-face {
-  font-family: Starjedi;
-  src: url("../font/Starjout.ttf");
+  font-family: Stjldbl;
+  src: url("../font/Strjmono.ttf");
  }
   
 
@@ -43,8 +43,7 @@ a{
 .content p { 
 	color: white;
 	padding: 70px;
-	font-family: Starjedi;
-	color: yellow;
+	font-family: 'Diplomata SC', cursive; 
 	color: black;
 	font-weight: bold;
 }
@@ -78,7 +77,7 @@ a{
 }
 
 .subMenu > ul > li> a {
-	font-family: Starjedi;
+	font-family: "Droid Sans", arial, verdana, sans-serif; 
 	text-decoration: none;
 	margin: 0;
 	padding: 0;
@@ -109,8 +108,5 @@ a{
 .content {
 	width: 100%;
 	margin: 10px auto;
-}
-.subMenu > ul:first-child {
- 	padding-left:  20px;
 }
 }
