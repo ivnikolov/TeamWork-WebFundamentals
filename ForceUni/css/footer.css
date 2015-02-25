@@ -1,1 +1,32 @@
  
+@font-face {
+  font-family: Starjout;
+  src: url("../fonts/Starjedi.ttf");
+ }
+  
+.footer-wrapper {
+    background-image:url("../img/spaceSmall.png");
+}
+
+ul li a {
+    text-decoration:none;
+    font-family: Starjout;
+    color: #999900;
+}
+
+.footer-actions > a {
+    text-decoration:none;
+    font-family: Starjout;
+    color: #999900;
+}
+
+.footer-column4 > h2, .footer-column4 > span {
+    text-decoration:none;
+    font-family: Starjout;
+    color: #999900;
+}
+
+.footer-actions, footer-column1, footer-column2, footer-column3, footer-column4 {
+    display:inline-block;
+}
+
