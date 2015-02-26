@@ -13,6 +13,7 @@ header {
 	min-height: 150px;
 	border-bottom: 1px solid rgb(255,255,0);
 	position: relative;
+
 }
 a{
 	text-decoration: none;
@@ -37,10 +38,11 @@ a{
 }
 
 .accountImg{
-	height: 100px;	
+	height: 107px;	
 } 
 .rightSizeHeader >nav>ul{
 	list-style-type: none;
+	margin-bottom: 0;
 
 } 
 .rightSizeHeader >nav>ul>li{
@@ -49,11 +51,14 @@ a{
 	padding: 0;
 	margin-right: 20px;
 	text-align: center;
-	padding: 10px 20px; 
+	padding: 10px 20px;  
 	background: black;
-	border: 1px solid rgb(255,255,0);
-	height: auto; 
-	border-radius: 7px; 
+border-top: 1px solid rgb(255,255,0);
+border-left: 1px solid rgb(255,255,0); 
+	border-right: 1px solid rgb(255,255,0);
+	 border-top-left-radius: 7px;
+	 border-top-right-radius: 7px;
+	height: auto;  
 }
 .rightSizeHeader >nav>ul>li>a{
  	font-family: Starjout; 
