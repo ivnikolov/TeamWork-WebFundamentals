@@ -13,7 +13,6 @@ header {
 	min-height: 150px;
 	border-bottom: 1px solid rgb(255,255,0);
 	position: relative;
-
 }
 a{
 	text-decoration: none;
@@ -38,11 +37,10 @@ a{
 }
 
 .accountImg{
-	height: 107px;	
+	height: 100px;	
 } 
 .rightSizeHeader >nav>ul{
 	list-style-type: none;
-	margin-bottom: 0;
 
 } 
 .rightSizeHeader >nav>ul>li{
@@ -51,14 +49,11 @@ a{
 	padding: 0;
 	margin-right: 20px;
 	text-align: center;
-	padding: 10px 20px;  
+	padding: 10px 20px; 
 	background: black;
-border-top: 1px solid rgb(255,255,0);
-border-left: 1px solid rgb(255,255,0); 
-	border-right: 1px solid rgb(255,255,0);
-	 border-top-left-radius: 7px;
-	 border-top-right-radius: 7px;
-	height: auto;  
+	border: 1px solid rgb(255,255,0);
+	height: auto; 
+	border-radius: 7px; 
 }
 .rightSizeHeader >nav>ul>li>a{
  	font-family: Starjout; 
@@ -76,7 +71,7 @@ border-left: 1px solid rgb(255,255,0);
 	 background: rgba(255,255,0,0.3);
 	 list-style-type: none;
 	 float: left;
-	 margin-top: 10px;
+	 margin-top: 18px;
 	 padding: 20px; 
 	  margin-left: -20px;
 	  display: none;
@@ -99,18 +94,8 @@ border-left: 1px solid rgb(255,255,0);
 }
 .rightSizeHeader >nav>ul>li:hover .navSubMenu{
  	 display: block;
-
-}
-.rightSizeHeader >nav>ul>li:hover {
- 	background: rgba(255,255,0,0.3);
-
-
-}
-.rightSizeHeader >nav>ul>li:hover a {
- 	color: white;
-
-
 }
 
-
- 
+nav>ul> li:hover .subMenu {
+			display: block;
+		}
