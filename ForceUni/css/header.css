@@ -99,5 +99,18 @@ border-left: 1px solid rgb(255,255,0);
 }
 .rightSizeHeader >nav>ul>li:hover .navSubMenu{
  	 display: block;
+
 }
+.rightSizeHeader >nav>ul>li:hover {
+ 	background: rgba(255,255,0,0.3);
+
+
+}
+.rightSizeHeader >nav>ul>li:hover a {
+ 	color: white;
+
+
+}
+
+
  
