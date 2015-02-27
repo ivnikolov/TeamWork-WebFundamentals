@@ -5,50 +5,82 @@
 	<title>ForceUni Home page</title>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
 	<link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
 </head>
 <body>
 	<div class="height">
         <div id="audio">
-            <audio controls autoplay loop>
-                <source src="http://fsa.zedge.net/dl/ringtone/a3c09342d77f9b2cd3b1ebcce537a624/star_wars_theme.mp3?ref=www&type=mc" type="audio/mp3">
-                Your browser does not support the audio element.
-</audio>
+            
         </div>   
     </div>
-    <div class="container">
-    <div class="row">
-                <div class="col-xs-5 col-heading">
-                   
-                        <img src="img/jedi-heading.png" class="img-responsive img-head">
-                       
-                                <div id="yoda" class="col-md-6 col-md-offset-1">
-                                    <img src="img/yoda2.png" class=""  />
-                                </div>
-                                <div class="col-md-4 heading-level-2"><a href="#" class="link btn btn-default">Continue</a></div>
-                                <div class="col-md-8 heading-font col-md-offset-1"> 
-                                    <p>
-                                        Calm keep you should and to the FORCEUNI APPLY YOU MUST
-                                    </p>
-                                </div>
-                                    
+ 
+        <div class="row">
+                    <div class="col-md-2 col-md-offset-1 ">
+                      <a href="#"><img src="img/jedi-heading.png" class="img-responsive" /></a>
                                 
-                    
-                </div>
-                <div class="col-xs-5 col-heading">
-                    
-                       <img src="img/jedi-heading.png" class="img-responsive">
-                        
-                         <div class="col-md-6 col-md-offset-2">   
-                            <img src="img/head.png" id="empire"/>
-                        </div>
-                         <div class="col-md-4 heading-level-2"><a href="#" class="link btn btn-default">Continue</a></div>
-                        <div class="col-md-8 heading-font col-md-offset-2"> 
-                                    <p>
-                                        The Empire needs you!
-                                    </p>
+                        <div class="col-md-3">   
+                                <a href="#"><img src="img/yoda-heading.png" class="img-responsive"/></a>
+                                <div class="col-md-1 col-md-offset-8">
+                                    <a href="#" class="btn btn-default btn-sm continue-btn">Continue...</a>  
                                 </div>
+                        </div>
+
+                    </div>
                     
-                </div>
-        </div>   
+                    <div class="col-md-2 col-md-offset-2 heading-story">
+                        <p id="start">A few years ago in a city of Sofia&hellip;</p>
+    
+    <h1>STAR WARE<sub>Let the CODE be with you</sub></h1>
+    
+    <div id="titles"><div id="titlecontent">
+    
+    <p class="center">EPISODE I<br />A NEW HOPE</p>
+
+    <p>It is a period of vendor war.</p> 
+    
+    <p>This is a demonstration of Star Wars-style scrolling 3D titles in CSS3. It possibly has no practical purpose whatsoever but it looks great and you can impress your friends.</p> 
+    
+    <p>Before movie-buffs start ranting, I realize Star Wars wasn't the first to use crawling 3D titles, but few of you will remember the Flash Gordon series or the 1936 adaption of HG Wells' "Things to Come".</p> 
+    
+    <p>Also, by mentioning "Star Wars", everyone will understand what I mean. And I'll receive several thousand more visits.</p> 
+    
+    <p>The scrolling titles work well in Chrome, Safari and Firefox. Opera doesn't implement 3D transforms yet, but the text will scroll. IE users receive a blank page. A shame, but IE10 should support it.</p> 
+    
+    <p>So how does it work? Well, it's fairly simple. We have an outer absolute DIV (#titles) which is rotated along the X-axis using perspective to give the impression of depth. The same DIV also has an :after psuedo-element which applies a linear gradient so the text appears to fade out.</p> 
+    
+    <p>Inside, we have another absolutely-positioned DIV which contains the text (#titlecontent). The top is set to 100% to ensure it starts off-screen then uses CSS3 animation to move it upward over time. No JavaScript blabla is required.</p> 
+    
+    <p>You will probably need to adjust the movement amount and timing depending on the quantity of text you want to show. The 3D depth can also be tweaked in the #titles declaration.</p> 
+    
+    <p>All the code is contained in this single HTML file&hellip; 
+    
+    <p class="center">View the source, Luke!</p> 
+    
+    <p>Sorry. Couldn't resist it.</p> 
+    
+    <p>You're welcome to use this demonstration code in your own sites. Please link back to the original article at:</p> 
+    
+    <p class="center"><a href="http://www.sitepoint.com/css3-starwars-scrolling-text/">sitepoint.com/<br />css3-starwars-scrolling-text/</a></p> 
+
+    
+    <p>and give me a shout on Twitter <a href="http://twitter.com/craigbuckler">@craigbuckler</a> &ndash; I'd love to see how you use and abuse it!</p> 
+    
+    <p>Finally, Han shot first and the original, unadulterated movies remain the best. Stop fiddling with them, George!</p> 
+    
+    </div></div> 
+                    </div>
+                    
+                    <div class="col-md-2 col-md-offset-2">
+                        
+                            <a href="#"><img src="img/dark-side-heading.png" class="img-responsive"></a>
+                            
+                             <div class="col-md-6">   
+                                <a href="#"><img src="img/empire-need-you.png" class="img-responsive"/></a>
+                                <div class="col-md-1 col-md-offset-6">
+                                    <a href="#" class="btn btn-default btn-sm continue-btn">Continue...</a>  
+                                </div>
+                            </div>  
+                    </div>
+         </div>  
 </body>
 </html>
