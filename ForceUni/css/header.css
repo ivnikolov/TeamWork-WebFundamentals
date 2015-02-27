@@ -101,5 +101,8 @@ nav>ul> li:hover .subMenu {
 			display: block;
 		}
 .rightSizeHeader >nav>ul>li:hover{
-    background: grey;
+    background-color: #CCDCCD;
+}
+.rightSizeHeader >nav>ul>li>a:hover{
+    color:#000000;
 }
