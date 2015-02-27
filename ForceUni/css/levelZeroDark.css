@@ -1,0 +1,138 @@
+
+@font-face {
+    font-family: Starjout;
+    src: url("../fonts/Starjedi.ttf");
+}
+
+
+body {
+    background:url("../img/spaceSmall-ivanCopy.png");
+}
+header {
+    width: 95%;
+    margin: 0 auto;
+    min-height: 150px;
+    border-bottom: 1px solid rgb(255,255,0);
+}
+a{
+    text-decoration: none;
+}
+.wrap {
+    width: 90%;
+    min-height: 200px;
+    margin: 5% auto;
+    padding: 10px;
+    position: relative;
+
+}
+.aside-left {
+    min-height: 100px;
+    width: 20%;
+    float: left;
+    margin: 0 10px;
+
+}
+.about {
+    min-height: 100px;
+    background: rgba(255,255,255, 0.3);
+    border-radius: 20px;
+    width: 70%;
+    margin:  0 10px;
+    float: left;
+}
+.about p,h2 {
+    color: white;
+    padding: 70px;
+    padding-bottom: 20px;
+    font-family: Starjout;
+    color: #999900;
+
+}
+
+.subMenu {
+    background: rgba(255,255,0,0.3);
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.subMenu > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.subMenu > ul > li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.subMenu > ul:first-child {
+    padding-top:  20px;
+}
+
+.subMenu > ul:last-child {
+    padding-bottom:  20px;
+}
+
+.subMenu > ul > li> a {
+    font-family: Starjout;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: black;
+}
+
+.subMenu > ul > li:hover {
+    background: rgba(255,255,0,0.6);
+}
+
+@media (max-width: 860px){
+    .subMenu > ul > li {
+        display: inline-block;
+    }
+
+    .aside-left {
+        min-height: 100px;
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+
+    }
+    .content {
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+.profile > img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    padding: 30px;
+}
+.profile{
+    min-height: 100px;
+    background: rgba(255,255,255, 0.3);
+    border-radius: 20px;
+    width: 70%;
+    margin:  10px 410px;
+    float: left;
+    color: white;
+    padding: 70px;
+    padding-bottom: 20px;
+    font-family: Starjout;
+    color: #999900;
+}
+.quote {
+    font-family: Starjout;
+    color: #999900;
+    font-weight: bold;
+    background: rgba(255,255,255, 0.3);
+    border-radius: 20px;
+    float: left;
+    margin:  10px 410px;
+    padding: 10px;
+}
