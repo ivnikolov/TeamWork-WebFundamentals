@@ -27,7 +27,7 @@ a{
 
 }
 .logo> img {
-	width: 320px;
+	width: 420px;
 	display: block;
 }
 
@@ -94,8 +94,12 @@ a{
 }
 .rightSizeHeader >nav>ul>li:hover .navSubMenu{
  	 display: block;
+
 }
 
 nav>ul> li:hover .subMenu {
 			display: block;
 		}
+.rightSizeHeader >nav>ul>li:hover{
+    background: grey;
+}
