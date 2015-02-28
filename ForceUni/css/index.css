@@ -1,15 +1,19 @@
 @font-face {
-    font-family: 'jedi';
-    src: url('fonts/Strjmono.ttf') format('truetype');
-}
+  font-family: Starjout;
+  src: url("../fonts/Starjedi.ttf");
+ }
 
 body{
     background: url('../img/spaceSmall-ivanCopy.png') repeat;
+    font-family: Starjout;
 	
 }
 
-h2{
-    font-family: 'jedi';
+
+h1{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
 }
 
 #img{
@@ -39,12 +43,6 @@ ul li {
     list-style-type: none;
 }
 
-.heading-font{
-    font-size: 20px;
-    font-family: 'jedi';
-    font-weight: bold;
-    color: #CFDFCF;
-}
 
 /* .link {
     font-family: 'jedi';
@@ -68,23 +66,25 @@ ul li {
     color: #CBD900;
 }*/
 
-.link{
-    font-family: 'jedi';
-    font-size: 19px;
-    background: url('../img/spaceSmall-ivanCopy.png');
-    color:#CBD900;
-}
 
-.link:hover{
-    color:white;
-}
 
-.heading-level-2{
+
+.continue-btn{
     margin-top: 10px;
+    color:#CBD900; 
+    font-family:Starjout;
+    background: url('../img/spaceSmall-ivanCopy.png');
 }
 
 .img-responsive{
     min-width: 200px;
+}
+
+a img:hover{
+    opacity: 0.5;
+    border: 1px solid #CBD900;
+    border-radius: 10px;
+
 }
 
 #audio{
@@ -93,13 +93,14 @@ ul li {
 @media only screen and (max-width: 480px) {
     /* STYLES HERE for BROWSER WINDOWS with a max-width of 480px. This will work on desktops when the window is narrowed.  */
     .height{
-        height: 100px;
+        height: 0px;
     }
-     .heading-level-2{
-        margin-top:10%;
-        margin-bottom:10%;
-        margin-left: 35%;
+
+    .heading-story{
+        display: none;
     }
+
+     
     
 }
 
@@ -107,11 +108,7 @@ ul li {
     .height{
         height: 150px;
     }
-    .heading-level-2{
-        margin-top:10%;
-        margin-bottom:10%;
-        margin-left: 35%;
-    }
+    
     
 }
 
