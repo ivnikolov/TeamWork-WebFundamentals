@@ -18,7 +18,7 @@
 			<div class="accountImg"></div>
 			<nav>
 				<ul>
-					<li><a href="#">about</a>
+					<li><a href="#" onclick="dropdown()">about</a>
 						<ul class="navSubMenu">
 							<li><a href="#">active learning</a></li>
 							<li><a href="#">work</a></li>
@@ -27,7 +27,7 @@
 						</ul> 
 					</li>
 
-					<li><a href="#">active learning</a>
+					<li><a href="#" onclick="dropdown()">active learning</a>
 						<ul class="navSubMenu">
 							<li><a href="#">active learning</a></li>
 							<li><a href="#">work</a></li>
@@ -36,7 +36,7 @@
 						</ul>
 					</li>
 
-					<li><a href="#">work</a>
+					<li><a href="#" onclick="dropdown()">work</a>
 						<ul class="navSubMenu">
 							<li><a href="#">active learning</a></li>
 							<li><a href="#">work</a></li>
@@ -44,7 +44,7 @@
 							<li><a href="#">contacts</a></li>
 						</ul> 
 					</li>
-					<li><a href="#">partners</a>
+					<li><a href="#" onclick="dropdown()">partners</a>
 						<ul class="navSubMenu">
 							<li><a href="#">active learning</a></li>
 							<li><a href="#">work</a></li>
@@ -52,7 +52,7 @@
 							<li><a href="#">contacts</a></li>
 						</ul> 
 					</li>
-					
+
 					<li><a href="#">contacts</a></li>
 				</ul>
 			</nav>
@@ -61,6 +61,16 @@
 		
 
 	</header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
 
+ $(document).ready(function () {
+         $('nav> ul >li').on('click', function dropdown() { 
+    		$( this ).find( '.navSubMenu' ).css("display", "block");
+ 			
+      }); 
+
+</script>
 </body>
 </html>
