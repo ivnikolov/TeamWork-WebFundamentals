@@ -7,108 +7,56 @@
 body {
 	background:url("../img/spaceSmall-ivanCopy.png");
 }
+.header-wrap {
+	max-width: 1300px;
+	margin: 0 auto;
+}
 header {
 	width: 95%;
 	margin: 0 auto;
 	min-height: 150px;
-	border-bottom: 1px solid rgb(255,255,0);
+	 
 	position: relative;
 }
-a{
-	text-decoration: none;
-}
-.leftSizeHeader{
-	float: left; 
-} 
-.logo{
-	padding: 20px;
-	padding-left: 0;
-	width: 100px;
+ .navbar {
+ 	background: none;
+ 	min-height: 130px;
+ 	margin-bottom: 0;
+ 	border: 0;
 
-}
-.logo> img {
-	width: 420px;
-	display: block;
-}
+ }
+ .navbar-header>a>img {
+ 	max-width: 320px;
 
-.rightSizeHeader {
-	float: right;
-
-}
-
-.accountImg{
-	height: 100px;	
-} 
-.rightSizeHeader >nav>ul{
-	list-style-type: none;
-
-} 
-.rightSizeHeader >nav>ul>li{
- 	display: inline-block;
- 	margin: 0;
-	padding: 0;
-	margin-right: 20px;
-	text-align: center;
-	padding: 10px 20px; 
-	background: black;
-	border: 1px solid rgb(255,255,0);
-	height: auto; 
-	border-radius: 7px; 
-}
-.rightSizeHeader >nav>ul>li>a{
- 	font-family: Starjout; 
-	text-decoration: none;
-	margin: 0;
-	padding: 0;
-	font-weight: bold;
-	color: rgb(255,255,0);
-}
-.rightSizeHeader >nav> ul:last-child {
- 	margin-right:  30px;
-}
-.rightSizeHeader>nav ul.navSubMenu {
-	position: absolute;
-	 background: rgba(255,255,0,0.3);
-	 list-style-type: none;
-	 float: left;
-	 margin-top: 18px;
-	 padding: 20px; 
-	  margin-left: -20px;
-	  display: none;
-
-}
-.rightSizeHeader>nav ul.navSubMenu>li {
-  margin: 0;
-  padding: 5px 20px ; 
-  padding-left: 0;
-  text-align: left;
+ }
+ .navbar-collapse{
+ 	margin-top: 110px;
+ }
 
 
-}
-.rightSizeHeader>nav ul.navSubMenu>li>a {
-  margin: 0;
-  padding: 0;
-  color: white;
+ @media (max-width: 435px) {
+	 
+  .navbar-header>a>img {
+	width: 200px;
+ 	padding: 20px;
+ 	margin-top: 0;
+ 	float: left;
 
-
+ }
+ .navbar-toggle { 
+	margin: 20px auto;
+ }
+ .navbar-toggle{
+ 	background: url("png-test/button-menu-resp.png");
+ 	 
+ }
 }
-/*
-.rightSizeHeader >nav>ul>li:hover .navSubMenu{
- 	 display: block;
 
+.navbar-default .navbar-nav > li > a {
+background: rgba(255,255,0,0.3);
+border-radius: 10px; 
+margin-right: 20px;
 }
-
-nav>ul> li:hover .subMenu {
-			display: block;
-		}
-<<<<<<< HEAD
-
-*/
-=======
-.rightSizeHeader >nav>ul>li:hover{
-    background-color: #CCDCCD;
+.navbar-toggle{
+	background: rgba(255,255,0,0);
 }
-.rightSizeHeader >nav>ul>li>a:hover{
-    color:#000000;
-}
->>>>>>> origin/master
