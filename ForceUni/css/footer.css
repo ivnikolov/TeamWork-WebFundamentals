@@ -10,23 +10,50 @@
 
 ul li a {
     text-decoration:none;
-    font-family: Starjout;
+    font-family: sans-serif;
     color: #999900;
 }
 
 .footer-actions > a {
     text-decoration:none;
-    font-family: Starjout;
+    font-family: sans-serif;
     color: #999900;
 }
 
 .footer-column4 > h2, .footer-column4 > span {
     text-decoration:none;
-    font-family: Starjout;
+    font-family: sans-serif;
     color: #999900;
 }
 
-.footer-actions, footer-column1, footer-column2, footer-column3, footer-column4 {
-    display:inline-block;
+ul > li {
+    list-style: none;
 }
+
+h2 {
+    text-decoration:none;
+    font-family: sans-serif;
+    color: #999900;
+}
+
+.footer-actions, .footer-column1, .footer-column2, .footer-column3 {
+    display: inline-block;
+    width: 240px;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-left: 0;
+}
+
+.footer-actions {
+    padding-top: 50px;
+    width: 250px;
+}
+
+.footer-actions > ul > li > a {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+
+
 
