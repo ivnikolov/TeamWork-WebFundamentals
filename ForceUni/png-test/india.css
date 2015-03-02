@@ -7,7 +7,7 @@ html {
 }
 header{
     text-align: left;
-    font-size: 300%;
+    font-size: 350%;
     position: absolute;
     left: 5%;
     top: 5%;
@@ -16,7 +16,7 @@ header{
     position: absolute;
     right: -20%;
     top: 20%;
-    -webkit-animation: show 3s;
+    -webkit-animation: show 5s;
     -webkit-animation-fill-mode: forwards;
 }
 @-webkit-keyframes show {
@@ -26,10 +26,11 @@ header{
  }
 #bubble{
    position: absolute;
-    top: -20%;
+    top: -30%;
     right: 30%;
-    -webkit-animation: shows 3s;
+    -webkit-animation: shows 5s;
     -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 5s;
 }
 @-webkit-keyframes shows {
     0% {top: -30%}
