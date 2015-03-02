@@ -7,8 +7,32 @@ html {
 }
 header{
     text-align: left;
-    font-size: 300%;
+    font-size: 350%;
     position: absolute;
     left: 5%;
     top: 5%;
 }
+#indian{
+    position: absolute;
+    right: -20%;
+    top: 20%;
+    -webkit-animation: show 5s;
+    -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes show {
+    0%   {right: -20%;}
+    100% {right: 10%;}
+
+ }
+#bubble{
+   position: absolute;
+    top: -30%;
+    right: 30%;
+    -webkit-animation: shows 5s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 5s;
+}
+@-webkit-keyframes shows {
+    0% {top: -30%}
+    100% {top: 2%}
+ }
