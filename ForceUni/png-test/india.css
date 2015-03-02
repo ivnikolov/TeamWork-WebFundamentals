@@ -12,3 +12,26 @@ header{
     left: 5%;
     top: 5%;
 }
+#indian{
+    position: absolute;
+    right: -20%;
+    top: 20%;
+    -webkit-animation: show 3s;
+    -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes show {
+    0%   {right: -20%;}
+    100% {right: 10%;}
+
+ }
+#bubble{
+   position: absolute;
+    top: -20%;
+    right: 30%;
+    -webkit-animation: shows 3s;
+    -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes shows {
+    0% {top: -30%}
+    100% {top: 2%}
+ }
