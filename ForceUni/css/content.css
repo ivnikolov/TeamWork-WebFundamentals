@@ -38,35 +38,61 @@ header {
  	margin-top: 110px;
  }
 
-
+ 
  @media (max-width: 435px) {
 	 
-  .navbar-header>a>img {
-	width: 200px;
- 	padding: 20px;
- 	margin-top: 0;
- 	float: left;
+	.navbar-header>a>img {
+		max-width: 220px;
+		margin-top: 20px;
 
- }
- .navbar-toggle { 
-	margin: 20px auto;
- }
- .navbar-toggle{
- 	background: url("png-test/button-menu-resp.png");
- 	 
- }
+	}
+		 
 }
-
+ 
 .navbar-default .navbar-nav > li > a {
 background: rgba(255,255,0,0.3);
-border-radius: 10px; 
+border-radius: 7px; 
 margin-right: 20px;
 }
 .navbar-toggle{
 	background: rgba(255,255,0,0);
+	margin-top:60px;
+	margin-right: 20px;
 }
+.navbar-collapse >ul>li  {
+	border: 1px solid  rgba(255,255,0,0 )!important;
+	border-radius: 7px;
+	padding: 2px auto;
+	margin-right: 20px;
+}
+.navbar-collapse >ul>li:hover  {
+	border: 1px solid   #999900!important;
+ 
+}
+.navbar-collapse >ul>li>a {
+	font-family: Starjout; 
+	color:black!important;
+	width: 100%;
+}
+ .navbar-collapse >ul>li>a:hover {
+	 color:#999900!important;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #555;
+	background-color: #e7e7e7;
+	border-radius: 7px; 
+ }
 
-
+@media (max-width: 767px){
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: white;
+		background:   rgba(0,0,0,0.7 )!important;
+	
+	}
+}
+ 
+ 
+ 
 
 /*CONTENT.HTML 
 =====================================*/
@@ -91,6 +117,7 @@ a{
 	padding: 10px;
 	position: relative;
 	padding-top: 50px;
+	overflow: auto;
 	 
 }
 .aside-left {
