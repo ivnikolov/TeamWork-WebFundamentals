@@ -1,0 +1,120 @@
+@font-face {
+  font-family: Starjout;
+  src: url("../fonts/Starjedi.ttf");
+ }
+
+body{
+    background: url('../img/spaceSmall-ivanCopy.png') repeat;
+    font-family: Starjout;
+	
+}
+
+
+h1{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+#img{
+    width: 60%;
+}
+
+.height{
+    height: 300px;
+}
+
+.col-heading{
+    margin: 20px;
+}
+
+img{
+    vertical-align:"middle";
+    position: relative;
+}
+
+ul{
+   margin: 20px;
+   min-width: 200px;
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* .link {
+    font-family: 'jedi';
+    font-size: 20px;
+    font-style: italic;
+    border:2px solid #CBD900;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+.link:hover{
+     font-family: 'jedi';
+    font-size: 20px;
+    font-style: italic;
+    border:2px solid white;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 10px;
+    color: #CBD900;
+}*/
+
+
+
+
+.continue-btn{
+    margin-top: 10px;
+    color:#CBD900; 
+    font-family:Starjout;
+    background: url('../img/spaceSmall-ivanCopy.png');
+}
+
+.img-responsive{
+    min-width: 200px;
+}
+
+a img:hover{
+    opacity: 0.5;
+    border: 1px solid #CBD900;
+    border-radius: 10px;
+
+}
+
+#audio{
+    display: none;
+}
+@media only screen and (max-width: 480px) {
+    /* STYLES HERE for BROWSER WINDOWS with a max-width of 480px. This will work on desktops when the window is narrowed.  */
+    .height{
+        height: 0px;
+    }
+
+    .heading-story{
+        display: none;
+    }
+
+     
+    
+}
+
+@media all screen and (max-width:768px) {
+    .height{
+        height: 150px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
