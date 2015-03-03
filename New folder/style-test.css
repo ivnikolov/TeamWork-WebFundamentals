@@ -1,10 +1,20 @@
  .left   {
  position: relative;
 margin-top:  150px;
+max-width: 350px;
  }
  .right {
  	float: right;
  	margin-top: -250px;
+ 	max-width: 350px;
+ }
+ img {
+ 	margin:0 60px;
+ 	border: 1px solid rgba(255,255,255, 0 );
+ }
+  
+  .left img {
+ 	width: 50%;
  }
 
   
