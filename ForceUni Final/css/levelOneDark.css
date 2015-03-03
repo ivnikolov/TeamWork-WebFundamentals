@@ -17,6 +17,7 @@ article.profile {
     background: rgba(255,255,255, 0.2);
     border-radius: 20px;
     min-height: 100px; 
+    margin-bottom: 20px;
     overflow: auto;
 }
 article.profile .profil-img img{
