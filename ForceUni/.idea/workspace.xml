@@ -27,28 +27,18 @@
       <file leaf-file-name="content.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.0" vertical-offset="216" max-vertical-offset="1836">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.333333" vertical-offset="1170" max-vertical-offset="2718">
+              <caret line="82" column="27" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.html">
+      <file leaf-file-name="content.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/content.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2448">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="levelZeroDark.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/levelZeroDark.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1664" max-vertical-offset="2574">
-              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.4210525" vertical-offset="2052" max-vertical-offset="5580">
+              <caret line="128" column="8" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -58,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/levelOneDark.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="1098">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <caret line="6" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -74,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="levelThreeDark.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/levelThreeDark.html">
+      <file leaf-file-name="levelZeroDark.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/levelZeroDark.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="1116">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2592">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,34 +84,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="levelOneJedi.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/levelOneJedi.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="1116">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="levelTwoJedi.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="levelTwoJedi.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/levelTwoJedi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1978022" vertical-offset="0" max-vertical-offset="1260">
+            <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="1260">
               <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.html">
+      <file leaf-file-name="ContactsJedi.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ContactsJedi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1425369374006" expanded="true" signature="267:2073" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="594">
+              <caret line="20" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactsDark.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ContactsDark.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="594">
+              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Work.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Work.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.03220036" vertical-offset="234" max-vertical-offset="1206">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,7 +131,6 @@
       <list>
         <option value="$PROJECT_DIR$/content.html" />
         <option value="$PROJECT_DIR$/levelZeroDark.html" />
-        <option value="$PROJECT_DIR$/css/levelZeroDark.css" />
         <option value="$PROJECT_DIR$/leveOneJedi.html" />
         <option value="$PROJECT_DIR$/levelThreeJedi.html" />
         <option value="$PROJECT_DIR$/levelOneDark.html" />
@@ -141,6 +138,12 @@
         <option value="$PROJECT_DIR$/levelThreeDark.html" />
         <option value="$PROJECT_DIR$/levelTwoDark.html" />
         <option value="$PROJECT_DIR$/levelTwoJedi.html" />
+        <option value="$PROJECT_DIR$/ContactsJedi.html" />
+        <option value="$PROJECT_DIR$/css/content.css" />
+        <option value="$PROJECT_DIR$/Contacts.html" />
+        <option value="$PROJECT_DIR$/ContactsDark.html" />
+        <option value="$PROJECT_DIR$/css/levelZeroDark.css" />
+        <option value="$PROJECT_DIR$/Work.html" />
       </list>
     </option>
   </component>
@@ -295,7 +298,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -339,22 +342,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/content.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1273" max-vertical-offset="2160">
-          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="95" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="118296">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2322">
@@ -386,7 +373,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1425369374006" expanded="true" signature="267:2073" placeholder="..." />
+            <marker date="1425369374006" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -648,14 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/content.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2983" max-vertical-offset="3870">
-          <caret line="187" column="4" selection-start-line="187" selection-start-column="4" selection-end-line="190" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2322">
@@ -666,20 +645,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/levelZeroDark.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1664" max-vertical-offset="2574">
-          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1044">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1425369374006" expanded="true" signature="267:2073" placeholder="..." />
+            <marker date="1425369374006" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -688,22 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2448">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0" vertical-offset="216" max-vertical-offset="1836">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/levelOneDark.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="1098">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -742,8 +697,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/levelTwoJedi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1978022" vertical-offset="0" max-vertical-offset="1260">
+        <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="1260">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/levelOneDark.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="1098">
+          <caret line="6" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333" vertical-offset="1170" max-vertical-offset="2718">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4210525" vertical-offset="2052" max-vertical-offset="5580">
+          <caret line="128" column="8" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContactsJedi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="594">
+          <caret line="20" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/levelZeroDark.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2592">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContactsDark.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="594">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03220036" vertical-offset="234" max-vertical-offset="1206">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding />
         </state>
       </provider>

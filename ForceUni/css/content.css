@@ -20,7 +20,6 @@ header {
 	 
 	margin: 0 auto;
 	min-height: 150px;
-	 
 	position: relative;
 }
  .navbar {
@@ -129,7 +128,6 @@ a{
 }
 .content {
 	min-height: 100px;
-	
 	width: 70%;
 	margin:  0 10px;
 	float: left;

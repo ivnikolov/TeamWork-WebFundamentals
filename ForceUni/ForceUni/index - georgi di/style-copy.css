@@ -1,0 +1,33 @@
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ }
+ .body-wrap {
+ 	width: 100%;
+ 	height: auto;
+ 	 
+ }
+ .body-left {
+	float: left;
+	width: 20%;
+	height: auto;
+ }
+ .body-middle {
+	float: left;
+	width: 60%;
+
+	 
+ }
+ .body-right {
+ 	float: left;
+ 	width: 20%;
+ 	height: auto;
+ }
+ .index-img {
+ 	width: 100px;
+ 	height: 100px;
+ 	float: left;
+ }
+ .index-img >img {
+  
+ }
