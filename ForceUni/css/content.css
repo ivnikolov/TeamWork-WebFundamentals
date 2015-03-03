@@ -10,7 +10,7 @@
   
 
 body {
-	background:url("../img/spaceSmall-ivanCopy.png");
+	background:url("../img/spaceMini-ivanCopy.png");
 }
 .header-wrap {
 	max-width: 1300px;
@@ -129,13 +129,23 @@ a{
 }
 .content {
 	min-height: 100px;
-	background: rgba(255,255,255, 0.3);
-	border-radius: 20px; 
+	
 	width: 70%;
 	margin:  0 10px;
 	float: left;
 }
-.content p,h2 { 
+.content>article>header>h2 {
+	background: rgba(255,255,255, 0.3);
+
+	border-radius: 20px; 
+}
+.content>article img {
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+}
+
+.content p  { 
 	color: white;
 	padding: 70px;
 	padding-bottom: 20px;
@@ -143,6 +153,17 @@ a{
 	color: #999900;
 	 
 }
+.content h2  { 
+	color: white;
+	padding: 20px;
+	padding-bottom: 20px;
+	font-family: Starjout; 
+	color: #999900;
+	margin-top: 0;
+	text-align: center;
+	 
+}
+
 
 .subMenu {
 	background: rgba(255,255,0,0.3);
@@ -208,3 +229,78 @@ a{
 	margin: 10px auto;
 }
 }
+
+
+
+/*FOOTER  
+=====================================*/
+
+
+ 
+footer.footer-general {
+    width: 100%;
+    min-height: 100px;
+    overflow: auto; 
+
+}
+.footer-wrap{
+    max-width: 1300px;
+    margin: 0 auto;
+    min-height: 200px;
+    overflow: auto; 
+
+
+}
+.footer-wrap>section {
+    float: left;
+
+    width: 25%;
+}
+.footer-wrap>section>h2 {
+    padding-top: 10px;
+}
+.footer-bottom {
+    width: 100%;
+    float: left; 
+
+}
+.footer-bottom>h2,.footer-bottom>p {
+       color: #999900;
+     font-family: Starjout;
+    	padding: 5px;
+     padding-left: 10px;
+}
+
+footer section ul li a,h2{
+    color: #999900;
+     font-family: Starjout;
+     
+
+}
+footer section>ul>li  {
+   border: 1px solid rgba(255,255,255, 0 );
+}
+footer section ul li:hover {
+     border: 1px solid #999900;
+
+}
+footer section ul li a:hover {
+     color: white;
+    
+}
+footer section ul {
+     list-style: none;
+}
+
+.login ul li  {
+    margin: 10px;
+    padding-left: 2px;
+    text-align: center;
+    width: 80%;
+    border: 2px solid  #999900;
+}
+.login ul:first-child  {
+  margin-top: 80px;
+}
+
+
