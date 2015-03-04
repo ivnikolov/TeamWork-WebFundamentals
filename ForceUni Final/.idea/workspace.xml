@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="work.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="work.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dark-side/work.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.8042452" vertical-offset="0" max-vertical-offset="3294">
-              <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+            <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="3294">
+              <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -114,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutUs.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aboutUs.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dark-side/aboutUs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.407408" vertical-offset="1357" max-vertical-offset="4626">
-              <caret line="115" column="107" selection-start-line="115" selection-start-column="107" selection-end-line="115" selection-end-column="107" />
+            <state vertical-scroll-proportion="0.3324905" vertical-offset="1105" max-vertical-offset="4626">
+              <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#article#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#1;n#article#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -139,12 +139,12 @@
         <option value="$PROJECT_DIR$/jedi-side/index.html" />
         <option value="$PROJECT_DIR$/jedi-side/aboutUs.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/dark-side/aboutUs.html" />
         <option value="$PROJECT_DIR$/dark-side/levelOneDark.html" />
         <option value="$PROJECT_DIR$/dark-side/levelThreeDark.html" />
         <option value="$PROJECT_DIR$/dark-side/levelTwoDark.html" />
         <option value="$PROJECT_DIR$/dark-side/work.html" />
         <option value="$PROJECT_DIR$/css/content.css" />
+        <option value="$PROJECT_DIR$/dark-side/aboutUs.html" />
       </list>
     </option>
   </component>
@@ -717,19 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dark-side/aboutUs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.407408" vertical-offset="1357" max-vertical-offset="4626">
-          <caret line="115" column="107" selection-start-line="115" selection-start-column="107" selection-end-line="115" selection-end-column="107" />
-          <folding>
-            <element signature="n#style#0;n#article#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#article#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#1;n#article#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#1;n#article#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dark-side/levelThreeDark.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-34.074074" vertical-offset="1114" max-vertical-offset="2970">
@@ -772,9 +759,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dark-side/work.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8042452" vertical-offset="0" max-vertical-offset="3294">
-          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+        <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="3294">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dark-side/aboutUs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3324905" vertical-offset="1105" max-vertical-offset="4626">
+          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#article#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#article#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#article#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#1;n#article#4;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
