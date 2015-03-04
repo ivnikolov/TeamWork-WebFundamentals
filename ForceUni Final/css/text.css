@@ -19,12 +19,14 @@ body {
  	float: left;
  	width: 40%;
  	border: 1px solid rgba(255,255,0,0);
+ 	z-index: 999;
  }
  .img2 { 
   margin: 30px;
   width: 40%;
  	float: right;
  	border: 1px solid rgba(255,255,0,0);
+ 	z-index: 999;
  }
 
  .img1:hover {
