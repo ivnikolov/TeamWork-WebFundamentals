@@ -44,30 +44,14 @@ ul li {
 }
 
 
-/* .link {
-    font-family: 'jedi';
-    font-size: 20px;
-    font-style: italic;
-    border:2px solid #CBD900;
-    text-decoration: none;
-    padding: 10px;
-    padding-top: 10px;
-    color: white;
+ 
+
+#audio audio{
+    margin: 0 auto;
+    width: 100%;  
+    display: block;
+    padding: 0 30%;
 }
-
-.link:hover{
-     font-family: 'jedi';
-    font-size: 20px;
-    font-style: italic;
-    border:2px solid white;
-    text-decoration: none;
-    padding: 10px;
-    padding-top: 10px;
-    color: #CBD900;
-}*/
-
-
-
 
 .continue-btn{
     margin-top: 10px;
@@ -87,9 +71,7 @@ a img:hover{
 
 }
 
-#audio{
-    display: none;
-}
+ 
 @media only screen and (max-width: 480px) {
     /* STYLES HERE for BROWSER WINDOWS with a max-width of 480px. This will work on desktops when the window is narrowed.  */
     .height{
