@@ -22,7 +22,10 @@
 	 
 } 
 body {
-	background:url("../img/spaceMini-ivanCopy.png");
+	background:url("../img/space.png");
+
+ 
+}
 }
 .header-wrap {
 	max-width: 1300px;
