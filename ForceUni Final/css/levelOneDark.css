@@ -38,8 +38,7 @@ article.profile .profil-img  {
     width: 30%;
     
 }
-.profile-info{
-    border-left: 1px solid white;
+.profile-info{ 
     width: 68%;
     float: left; 
 }
