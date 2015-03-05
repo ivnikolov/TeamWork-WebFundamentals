@@ -9,6 +9,17 @@
 		 
 }
 
+ #navbar-brand   {
+	margin-top: 20px;
+}
+#navbar-brand  a img {
+	border: rgba(255,255,0,0 )!important;
+	display: inline-block;
+}
+ #mute img {
+border: rgba(255,255,0,0 )!important;
+ }
+
 
 /*HEADER COPY FROM HEADER.CSS
 =====================================*/
@@ -59,7 +70,7 @@ header {
 
  
 a>mute{
-	position: relative;
+	position: absolute;
 	margin-right: 50px;
 }
 
@@ -128,6 +139,7 @@ margin-right: 20px;
 
 body {
 	background:url("../img/spaceSmall-ivanCopy.png");
+	 background-attachment: fixed;
 	line-height: 1.42857143; */
 }
  
@@ -159,8 +171,13 @@ a{
 	margin:  0 10px;
 	float: left;
 }
-.content>article>header>h2 {
-	background: rgba(255,255,255, 0.3);
+
+.one {
+	background: rgba(255,255,255, 0.2);
+
+	border-radius: 20px; 
+}
+.content>article>header>h2 { 
 
 	border-radius: 20px; 
 }
@@ -178,7 +195,7 @@ a{
 	color: #999900;
 	 
 }
-.content h2  {
+.content h2, .content h3  {
 	color: white;
 	padding: 20px;
 	padding-bottom: 20px;
@@ -354,7 +371,7 @@ footer section ul {
 
 
 article.work {
-	background: rgba(255,255,255, 0.3);
+	background: rgba(255,255,255, 0.2);
 
 	border-radius: 20px; 
 }
@@ -371,7 +388,7 @@ article.work>h3 {
 
 .about-us{
 
-	background: rgba(255,255,255, 0.3);
+	background: rgba(255,255,255, 0.2);
 
 	border-radius: 20px; 
 }

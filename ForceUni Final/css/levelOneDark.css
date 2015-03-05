@@ -3,7 +3,7 @@
     border-radius: 20px;
     min-height: 100px; 
  }
- article.about-level header h2 {
+ article.about-level header h3 {
     background: rgba(255,255,255, 0 ); 
     font-family: Starjout;
     color: #999900; 

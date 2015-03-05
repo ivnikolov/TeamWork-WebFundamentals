@@ -1,0 +1,50 @@
+ article.about-level {
+    background: rgba(255,255,255, 0.2);
+    border-radius: 20px;
+    min-height: 100px; 
+ }
+ article.about-level header h2 {
+    background: rgba(255,255,255, 0 ); 
+    font-family: Starjout;
+    color: #999900; 
+    text-align: center;
+}
+ article.about-level p {
+   padding-top: 0;
+}
+  
+article.profile {
+    background: rgba(255,255,255, 0.2);
+    border-radius: 20px;
+    min-height: 100px; 
+    margin-bottom: 20px;
+    overflow: auto;
+}
+article.profile .profil-img img{
+    display: block;
+    float: left;
+    width: 80%;
+    margin:20px  ; 
+}
+article.profile .profil-img p{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding-left: 30px;
+}
+article.profile .profil-img  {
+    display: block;
+    float: left;
+    width: 30%;
+    
+}
+.profile-info{ 
+    width: 68%;
+    float: left; 
+}
+ 
+ article.quote {
+background: rgba(255,255,255, 0.2);
+    border-radius: 20px;
+    margin: 10px auto;
+ }

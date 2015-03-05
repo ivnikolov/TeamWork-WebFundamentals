@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css"href="../css/content.css">
+    <link rel="stylesheet" type="text/css"href="../css/levelOneDark.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../img/Stormtrooper.png">
+    <title> ForceUni - about Us</title>
+</head>
+<body>
+<div class="header-wrap">
+     <header>
+
+         <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+               <span class="sr-only  ">Toggle navigation</span>
+                <span class="icon-bar  "></span>
+                <span class="icon-bar  "></span>
+                <span class="icon-bar  "></span> 
+             <!--   <img class="button-menu-resp " src="png-test/button-menu-resp.png">-->
+              </button>
+              <div id="navbar-brand">
+                  <a class= "navbar-Vader" href="https://ForceUni.divery.me" target="_blank"><img src="../img/vader.png"></a>
+                  <a class="navbar-softuni" href="https://softuni.bg/" target="_blank"><img src="../img/CodeWarsDarkSmall.png"></a>
+                </div>
+            </div>
+              
+               <audio id="help" preload="auto">
+                  <source src="../music/breath.mp3" source>
+                  <source src="../music/breath.ogg" source>
+                  Your browser isn't supported.
+              </audio>
+
+              <audio id="background_audio" autoplay loop>
+                  <source src="../music/imperial.mp3" source>
+                  <source src="../music/imperial.ogg" source>
+                  Your browser isn't supported.
+              </audio>
+
+              <a img src= href="#noscroll" id="mute"><img src="../img/speaker.png"></a>
+
+              <script>
+                  window.onload=function() {
+                      var YodaSound = document.getElementById('help');
+                      var YodaOver = document.getElementById('navbar-brand');
+
+                      YodaOver.onmouseover = function () {
+                          YodaSound.play();
+                          return false;
+                      };
+
+                    };
+
+                  var audio = document.getElementById('background_audio');
+                  document.getElementById('mute').addEventListener('click', function (e){
+                        e = e || window.event;
+                        audio.muted = !audio.muted;
+                        e.preventDefault();
+                        },false);
+
+              </script>
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              
+               
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">active learning</a></li>
+                <li><a href="work.html">work</a></li>  
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">levels <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="levelOneJedi.html">level 1</a></li>
+                    <li><a href="levelTwoJedi.html">level 2</a></li>
+                    <li><a href="levelThreeJedi.html">level 3</a></li>
+                     
+                  </ul>
+                </li>
+                  
+                 <li><a href="aboutUs.html">contacts</a></li> 
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+</header>
+</div>
+
+
+ <div class="wrap">
+    <aside class=" aside-left">
+        <div class="subMenu">
+            <ul>
+                 <li><a href="levelOneJedi.html">level 1</a></li>
+                <li><a href="levelTwoJedi.html">level 2</a></li>
+                <li><a href="levelThreeJedi.html">level 3</a></li>
+            </ul>
+
+        </div>
+
+    </aside>
+
+    <section class="content">
+        <article class="about-us">
+            <h2>You can find us at : </h2>
+            <p> Planet : THE DEATH STAR 3 </p>
+            <p>near the Ziost moon</p>
+            <p>UMail - EmperrorPalpatinIsDaShit@lightforce.uni</p>
+            <p>Teleportation coordinates : 17/88;24/72;111/999</p>
+            <p>Communication Wave : DarkJedi 23-13-77</p>
+        </article>
+
+        
+
+
+        <article class="profile">
+            <div class="profil-img">
+                <img src="../img/petar.jpg">
+                <p> name : Todor Klasnakov</p>
+                <p> years : 27 </p>
+                <p> Species : Human </p>
+                <p> Homeworld : Earth</p>
+            </div>
+
+            <div class ="profile-info"> 
+                    <p> About the lecturer :</p>
+    
+                    <p> Content writer & text redaction</p>
+
+                    <p> </p>
+
+
+            </div>
+
+        </article>
+
+
+        <article class="profile">
+            <div class="profil-img">
+                <img src="../img/ivan.png">
+                <p> name : ivan Nikolov</p>
+                <p> years : 00101000 </p>
+                <p> Species : Human </p>
+                <p> Homeworld : Tatooine</p>
+          </div>
+
+            <div class ="profile-info"> 
+                    <p> About the lecturer :</p>
+                    <p> Pictures, sounds and special effects
+                    </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="profile">
+            <div class="profil-img">
+                <img src="../img/DartVader.png">
+                <p> name : Darth Vader</p>
+                <p> years : Unknown </p>
+                <p> Species : Human </p>
+                <p> Homeworld : Tatooine</p>
+          </div>
+
+            <div class ="profile-info"> 
+                    <p> About the lecturer :</p>
+                    <p> Darth Vaidar were Jedi programmer once but he saw the power in the D h and can use it to hack almost everything. His son currently is one of the best Jedi programmer in the
+                    Universe but he works for the rivalry company !!! Vaidar try to convince him to enter THE DARK SIDE OF THE FORCE CODE offering him bigger salary and power but for now Luke refusing.</p>
+
+            </div>
+
+        </article>
+
+        <article class="profile" style="overflow: hidden ">
+            <div class="profil-img">
+                <img src="../img/georgi.png">
+                <p> name : georgi diveri</p>
+                <p> years : 5431 </p>
+                <p> Species : lavrak </p>
+                <p> Homeworld : Tatooine</p>
+          </div>
+
+            <div class ="profile-info"> 
+                    <p style="padding :30"> About the lavrak :</p>
+                    <p style="padding-top:0"> georgi diveri were Jedi programmer once but he saw the power in the DARK SIDE OF THE CODE FORCE and now he is main lecturer in the FORCE UNI. He work for Emperror Palpatine like his</p>
+                    <p style="padding-top:0">i m pretty cool guy an i love make really crazy stuff like this web site. but more important for me is that .. I must eat a lot milk</p>
+
+            </div>
+
+        </article>
+
+        <article class="profile">
+            <div class="profil-img">
+                <img src="../img/DartVader.png">
+                <p> name : Darth Vader</p>
+                <p> years : Unknown </p>
+                <p> Species : Human </p>
+                <p> Homeworld : Tatooine</p>
+          </div>
+
+            <div class ="profile-info"> 
+                    <p> About the lecturer :</p>
+                    <p> Darth Vaidar were Jedi programmer once but he saw the p FORCES indepth and can use it to hack almost everything. His son currently is one of the best Jedi programmer in the
+                    Universe but he works for the rivalry company !!! Vaidar try to convince him to enter THE DARK SIDE OF THE FORCE CODE offering him bigger salary and power but for now Luke refusing.</p>
+
+            </div>
+
+        </article>
+
+
+        <article class="profile">
+            <div class="profil-img">
+                <img src="../img/DartVader.png">
+                <p> name : Darth Vader</p>
+                <p> years : Unknown </p>
+                <p> Species : Human </p>
+                <p> Homeworld : Tatooine</p>
+          </div>
+
+            <div class ="profile-info"> 
+                    <p> About the lecturer :</p>
+                    <p> Darth Vaidar were Jedi programmer once but he saw the power in the DARK SIDE OF THE CODE FORCE and now he is main lecturer in the FORCE UNI. He work for Emperror Palpatine like his
+                    personal codder. This guy is the shit ! He know the CODE FORCES indepth and can u nter THE DARK SIDE OF THE FORCE CODE offering him bigger salary and power but for now Luke refusing.</p>
+
+            </div>
+
+        </article>
+
+         
+
+    </section>
+
+
+ </div>
+ 
+</main>
+ <footer class="footer-general">
+    <div class="footer-wrap">
+        <section class="login">
+            <ul>
+                <li><a href="#">become a jedi</a></li>
+                <li><a href="#">jedi fast track</a></li>
+            </ul>
+        </section>
+
+        <section>
+             <h3>forceuni</h3>
+                    <ul>
+                        <li><a href="/about">about forceuni</a></li>
+                        <li><a href="/professions">force specializations</a></li>
+                        <li><a href="/trainers">jedi masters</a></li>
+                        <li><a href="/apply">become a padawan</a></li>
+                    </ul>
+        </section>
+
+        <section>
+             <h3>our partners</h3>
+                    <ul>
+                        <li><a href="#">quasar Inc</a></li>
+                        <li><a href="#">ForceWare Ltd</a></li>
+                        <li><a href="#">Lightsaber Technologies</a></li>
+                        <li><a href="#">DeathStar Productions</a></li>
+                    </ul>
+        </section>
+
+        <section>
+            <h3>our Friends</h3>
+                    <ul>
+                        <li><a href="#">Master Yoda's blog</a></li>
+                        <li><a href="#">introduction to the Force Book</a></li>
+                    </ul>
+        </section>
+
+        <div class="footer-bottom">
+            <h3>Force university Jedi Training System - 0.0.0021</h3>
+            <p class="copyright">© 3015  - Force university. All Rights Reserved.</p><br><br>
+        </div>
+
+    </div>
+</footer>
+
+
+
+
+</body>
+</html>

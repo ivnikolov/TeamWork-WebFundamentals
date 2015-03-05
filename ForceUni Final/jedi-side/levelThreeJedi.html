@@ -2,8 +2,8 @@
 <html>
 <head lang="en">
     <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css"href="../css/content.css">
-    <link rel="stylesheet" type="text/css"href="../css/levelOneDark.css">
+    <link rel="stylesheet" type="text/css" href="../css/content.css">
+    <link rel="stylesheet" type="text/css" href="../css/levelOneDark.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -27,8 +27,47 @@
                 <span class="icon-bar  "></span> 
              <!--   <img class="button-menu-resp " src="png-test/button-menu-resp.png">-->
               </button>
-              <a class="navbar-brand" href="https://softuni.bg/" target="_blank"><img src="../img/CodeWarsJedi.png"></a>
+             <div id="navbar-brand">
+                  <a class= "navbar-Yoda" href="http://www.forceuni.divery.me/" target="_blank"><img src="../img/Calm2.png"></a>
+                  <a class="navbar-softuni" href="https://softuni.bg/" target="_blank"><img src="../img/CodeWarsJediSmall.png"></a>
+                </div>
             </div>
+              
+               <audio id="help" preload="auto">
+                  <source src="../music/helpwill.mp3" source>
+                  <source src="../music/helpwill.ogg" source>
+                  Your browser isn't supported.
+              </audio>
+
+              <audio id="background_audio" autoplay loop>
+                  <source src="../music/starwars.mp3" source>
+                  <source src="../music/starwars.ogg" source>
+                  Your browser isn't supported.
+              </audio>
+
+              <a img src= href="#noscroll" id="mute"><img src="../img/speaker.png"></a>
+
+              <script>
+                  window.onload=function() {
+                      var YodaSound = document.getElementById('help');
+                      var YodaOver = document.getElementById('navbar-brand');
+
+                      YodaOver.onmouseover = function () {
+                          YodaSound.play();
+                          return false;
+                      };
+
+                    };
+
+                  var audio = document.getElementById('background_audio');
+                  document.getElementById('mute').addEventListener('click', function (e){
+                        e = e || window.event;
+                        audio.muted = !audio.muted;
+                        e.preventDefault();
+                        },false);
+
+              </script>
+
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -63,9 +102,6 @@
                  <li><a href="levelOneJedi.html">level 1</a></li>
                 <li><a href="levelTwoJedi.html">level 2</a></li>
                 <li><a href="levelThreeJedi.html">level 3</a></li>
-                <li class="through" ><a href="#">level 4</a></li>
-                <li  class="through"><a href="#">level 5</a></li>
-                <li  class="through"><a class="through" href="#">level 6</a></li>
             </ul>
 
         </div>
@@ -75,21 +111,21 @@
     <section class="content">
         <article class="about-level">
             <header>
-            <h2>Level 3 - Code Force ,Force Thinking</h2>
+            <h2>Level 3 - Code Force, Force Thinking</h2>
             </header>
-             <p>You are at the last level of Force Uni. This means that you are one of the chosen ones! THE FORCE IS STRONG WITH YOU! In this level you will learn the Code Force -
-            how to use it to protect and defeat dark side programmers. From here on you will have many job opportunities and you can become a lecturer in Force Uni even though this is maybe not your first choice (xexexe). In the second part of this level you will start learning how to think like a real code force master! How to use the Code Force and even how to apply THE FORCE and make it through complicated code. You will start to think like a Jedi - to protect the innocent and serve The Jedi Programming Order! You will see every matrix using THE CODE FORCE. Try to keep yourself focused and MAY THE CODE FORCE BE WITH YOU!</p>
+             <p>you are at the last level of force uni. that means that you are one of the chosen ones! the force is strong with you! in this level you will learn the code force -
+            how to use it to protect and defeat dark side programmers. from here on you will have many job opportunities and you can become a lecturer in force uni even though this is maybe not your first choice (xexexe). in the second part of this level you will start learning how to think like a real code force master! how to use the code force and even how to apply the force and make it through complicated code. you will start to think like a jedi - to protect the innocent and serve the jedi programming order! you will see every matrix using the code force. try to keep yourself focused and may the code force be with you!</p>
         </article>
 
         <article class="profile">
             <div class="profil-img">
                 <img src="../img/Luke.png">
-                <p> name: Luke Skywallker</p>
-                <p> years: 27 </p>
-                <p> Species: Human </p>
-                <p> Homeworld: Tatooine</p>
+                <p> name : Luke Skywallker</p>
+                <p> years : 27 </p>
+                <p> Species : Human </p>
+                <p> Homeworld : Tatooine</p>
           </div>
-
+           
             <div class ="profile-info"> 
                     <p> About the lecturer :</p>
                     <p> Luke is one of the best young force coders in the universe. His father is probably the best so the code force runs in his blood. He is a powerful programmer and his only wish is to bring THE CODE FORCE to balance! He uses his lighboard to perfection and can force code over 2000 commands per minute! Under his guidance, you will learn how to become a true Jedi Programmer. </p>
@@ -115,42 +151,42 @@
     <div class="footer-wrap">
         <section class="login">
             <ul>
-                <li><a href="#">become a jedi</a></li>
-                <li><a href="#">jedi fast track</a></li>
+                <li><a href="../jedi-side/index.html">become a jedi</a></li>
+                <li><a href="../jedi-side/index.html">jedi fast track</a></li>
             </ul>
         </section>
 
         <section>
-             <h2>f o r c e u n i</h2>
-                    <ul>
-                        <li><a href="/about">about aorceUni</a></li>
-                        <li><a href="/professions">force specializations</a></li>
-                        <li><a href="/trainers">jedi masters</a></li>
-                        <li><a href="/apply">become a padawan</a></li>
-                    </ul>
+            <h3>Forceuni</h3>
+            <ul>
+                <li><a href="#">about Forceuni</a></li>
+                <li><a href="#">force specializations</a></li>
+                <li><a href="#">jedi masters</a></li>
+                <li><a href="../jedi-side/index.html">become a padawan</a></li>
+            </ul>
         </section>
 
         <section>
-             <h2>our partners</h2>
-                    <ul>
-                        <li><a href="#">Quasar Inc</a></li>
-                        <li><a href="#">ForceWare Ltd</a></li>
-                        <li><a href="#">Lightsaber Technologies</a></li>
-                        <li><a href="#">DeathStar Productions</a></li>
-                    </ul>
+            <h3>our partners</h3>
+            <ul>
+                <li><a href="http://www.quasars-inc.com">quasar Inc</a></li>
+                <li><a href="http://www.forceware.de">ForceWare Ltd</a></li>
+                <li><a href="http://www.ultrasabers.com">Lightsaber Ultra</a></li>
+                <li><a href="http://en.wikipedia.org/wiki/Death_Star">DeathStar Productions</a></li>
+            </ul>
         </section>
 
         <section>
-            <h2>Our Friends</h2>
-                    <ul>
-                        <li><a href="#">Master Yoda's blog</a></li>
-                        <li><a href="#">Introduction to the Force Book</a></li>
-                    </ul>
+            <h3>our Friends</h3>
+            <ul>
+                <li><a href="http://masterjediyoda.blogspot.com">Master Yoda's blog</a></li>
+                <li><a href="http://starwars.wikia.com/wiki/The_Force">Introduction to the Force Book</a></li>
+            </ul>
         </section>
 
         <div class="footer-bottom">
-            <h2>Force University Jedi Training System - 0.0.0021</h2>
-            <p class="copyright">© 3015  - Force University. All Rights Reserved.</p><br><br>
+            <h3>Force university Jedi Training System - 0.0.0021</h3>
+            <p class="copyright">© 3015  - Force university. All Rights Reserved.</p><br><br>
         </div>
 
     </div>
